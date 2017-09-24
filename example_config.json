@@ -1,0 +1,5 @@
+// Should be named 'config.json'
+{
+  "username": "somebody",
+  "password": "hunter2"
+}
