@@ -28,6 +28,8 @@ class App {
       const params: any = req.body.result.parameters;
       if (intentName == "connect_to_projector")
         this.connectoToProjector(params.hdmi_source);
+      if (intentName == "disable_power")
+        this.disablePower(params.device);
       res.status(200).send("Ok!");
     });
   }
@@ -50,7 +52,7 @@ class App {
     return this.irSend("hdmi_switch", hdmiSourceToKey[hdmiSource]);
   }
 
-  private async disablePower(device: string) {
+  private disablePower(device: string) {
     if (device == "sound system")
       return this.irSend("sound_system", "POWER");
 
