@@ -57,7 +57,7 @@ class App {
       return this.irSend("sound_system", "POWER");
 
     if (device == "projector") {
-      const disable = () => this.irSend("projector", "KEY_POWER");
+      const disable = () => this.irSend("projector", "KEY_SUSPEND");
       disable();
       setTimeout(disable, 1000);
     }
