@@ -50,6 +50,17 @@ class App {
     return this.irSend("hdmi_switch", hdmiSourceToKey[hdmiSource]);
   }
 
+  private async disablePower(device: string) {
+    if (device == "sound system")
+      return this.irSend("sound_system", "POWER");
+
+    if (device == "projector") {
+      const disable = () => this.irSend("projector", "KEY_POWER");
+      disable();
+      setTimeout(disable, 1000);
+    }
+  }
+
   private irSend(receiver: string, key: string) {
     const cmd = `irsend SEND_ONCE ${receiver} ${key}`;
     console.log(`Performing command '${cmd}'`);
