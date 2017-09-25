@@ -37,11 +37,11 @@ class App {
   }
 
   public stop(): void {
-      this.server.close();
+    this.server.close();
   }
 
   private connectoToProjector(hdmiSource: string) {
-    const hdmiSourceToKey: {[key: string]: string} = {
+    const hdmiSourceToKey: { [key: string]: string } = {
       computer: "KEY_PROG1",
       playstation: "KEY_PROG2",
       chromecast: "KEY_PROG3",
