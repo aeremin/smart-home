@@ -30,6 +30,8 @@ class App {
         this.connectoToProjector(params.hdmi_source);
       if (intentName == "disable_power")
         this.disablePower(params.device);
+      if (intentName == "enable_power")
+        this.enablePower(params.device);
       res.status(200).send("Ok!");
     });
   }
@@ -50,6 +52,14 @@ class App {
     };
     this.irSend("projector", "KEY_POWER");
     return this.irSend("hdmi_switch", hdmiSourceToKey[hdmiSource]);
+  }
+
+  private enablePower(device: string) {
+    if (device == "sound system")
+      return this.irSend("sound_system", "POWER");
+
+    if (device == "projector")
+      return this.irSend("projector", "KEY_POWER");
   }
 
   private disablePower(device: string) {
