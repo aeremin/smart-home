@@ -1,0 +1,79 @@
+{
+  "id": "2dc639f9-74b8-476f-9dd0-798a7dee4a03",
+  "name": "enable_power",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@device",
+          "name": "device",
+          "value": "$device",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Powered!",
+            "Sure!",
+            "Done!"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1506880709014,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "4ca2e1d2-617e-4472-a902-52a054dbe058",
+      "data": [
+        {
+          "text": "Enable "
+        },
+        {
+          "text": "sound system",
+          "alias": "device",
+          "meta": "@device",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "d408bba7-fb68-4591-8f5b-21e470d012c6",
+      "data": [
+        {
+          "text": "Turn on "
+        },
+        {
+          "text": "projector",
+          "alias": "device",
+          "meta": "@device",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "templates": []
+}
