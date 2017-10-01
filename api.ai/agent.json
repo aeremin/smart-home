@@ -5,9 +5,21 @@
     "googleAssistantCompatible": true,
     "project": "home-control-f4538",
     "welcomeIntentSignInRequired": false,
-    "startIntents": [],
+    "startIntents": [
+      {
+        "intentId": "f6bd9f81-61e2-4989-9ed4-48a525fc834a",
+        "signInRequired": true
+      },
+      {
+        "intentId": "f1bce01d-f5f4-44ed-b20e-b354427d0351",
+        "signInRequired": true
+      }
+    ],
     "systemIntents": [],
-    "endIntentIds": [],
+    "endIntentIds": [
+      "f1bce01d-f5f4-44ed-b20e-b354427d0351",
+      "f6bd9f81-61e2-4989-9ed4-48a525fc834a"
+    ],
     "oAuthLinking": {
       "required": false,
       "grantType": "AUTH_CODE_GRANT"

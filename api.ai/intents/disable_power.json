@@ -1,0 +1,115 @@
+{
+  "id": "f1bce01d-f5f4-44ed-b20e-b354427d0351",
+  "name": "disable_power",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@device",
+          "name": "device",
+          "value": "$device",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Sure",
+            "Done",
+            "Device turned off"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 1000000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1506774761,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "b3ab0558-f2b9-43ce-b6ba-7249a1ee5e57",
+      "data": [
+        {
+          "text": "Shutdown "
+        },
+        {
+          "text": "sound system",
+          "alias": "device",
+          "meta": "@device",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1506774761,
+      "isAuto": false
+    },
+    {
+      "id": "1319294b-f114-4521-b243-fcdde96328ac",
+      "data": [
+        {
+          "text": "Turn off "
+        },
+        {
+          "text": "sound system",
+          "alias": "device",
+          "meta": "@device",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1506774761,
+      "isAuto": false
+    },
+    {
+      "id": "7e3d7e56-c86a-425e-8790-45d47e795f4e",
+      "data": [
+        {
+          "text": "Turn off "
+        },
+        {
+          "text": "projector",
+          "alias": "device",
+          "meta": "@device",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1506468593,
+      "isAuto": false
+    },
+    {
+      "id": "fbaf74c3-1302-4697-b905-6b7f6ccbd593",
+      "data": [
+        {
+          "text": "Disable "
+        },
+        {
+          "text": "projector",
+          "alias": "device",
+          "meta": "@device",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1506468593,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "templates": []
+}

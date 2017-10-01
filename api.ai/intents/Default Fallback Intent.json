@@ -1,5 +1,4 @@
 {
-  "userSays": [],
   "id": "0a6286ee-bc07-4466-9d9e-ab3d263adf77",
   "name": "Default Fallback Intent",
   "auto": false,
@@ -29,12 +28,17 @@
           ]
         }
       ],
-      "defaultResponsePlatforms": {}
+      "defaultResponsePlatforms": {},
+      "speech": []
     }
   ],
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
+  "lastUpdate": 1506289787,
   "fallbackIntent": true,
-  "events": []
+  "events": [],
+  "userSays": [],
+  "followUpIntents": [],
+  "templates": []
 }

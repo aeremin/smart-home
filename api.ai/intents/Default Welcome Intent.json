@@ -1,5 +1,4 @@
 {
-  "userSays": [],
   "id": "d42f7f8f-50d5-4ac5-baf7-db23f4ad895d",
   "name": "Default Welcome Intent",
   "auto": true,
@@ -20,12 +19,15 @@
             "Greetings!"
           ]
         }
-      ]
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
     }
   ],
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
+  "lastUpdate": 1506118084,
   "fallbackIntent": false,
   "events": [
     {
@@ -34,5 +36,8 @@
     {
       "name": "GOOGLE_ASSISTANT_WELCOME"
     }
-  ]
+  ],
+  "userSays": [],
+  "followUpIntents": [],
+  "templates": []
 }
