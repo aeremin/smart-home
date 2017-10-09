@@ -1,5 +1,9 @@
 // Should be named 'config.json'
 {
   "username": "somebody",
-  "password": "hunter2"
+  "password": "hunter2",
+  "vlcConfig": {
+    "password": "qwerty",
+    "url": "http://localhost:8080"
+  }
 }

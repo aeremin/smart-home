@@ -1,7 +1,8 @@
 import * as rp from "request-promise";
+import { VlcConfig } from "./config";
 
 class Vlc {
-  constructor(private _url: string, private _password: string) { }
+  constructor(private _config: VlcConfig) { }
 
   // Playback controls
   public async resume() {
@@ -31,13 +32,7 @@ class Vlc {
     return this.setStreamLanguage("audio", language);
   }
 
-  private async makeStatusRequest(suffix: string): Promise<any> {
-    const status = await rp.get(this._url + "/requests/status.json" + suffix,
-      { auth: { username: "", password: this._password } });
-    return JSON.parse(status);
-  }
-
-  private async setStreamLanguage(streamType: string, language: string) {
+  public async setStreamLanguage(streamType: string, language: string) {
     const streamPrefix = "Stream ";
     const status = await this.makeStatusRequest("");
     const streams = status.information.category;
@@ -56,6 +51,11 @@ class Vlc {
 
   }
 
+  private async makeStatusRequest(suffix: string): Promise<any> {
+    const status = await rp.get(this._config.url + "/requests/status.json" + suffix,
+      { auth: { username: "", password: this._config.password } });
+    return JSON.parse(status);
+  }
 }
 
 export default Vlc;

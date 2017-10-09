@@ -4,12 +4,16 @@ import * as child from "child_process";
 import * as express from "express";
 import * as http from "http";
 import { Config } from "./config";
+import Vlc from "./vlc";
 
 class App {
   private app: express.Express = express();
   private server: http.Server;
+  private vlc: Vlc;
 
   constructor(private config: Config) {
+    this.vlc = new Vlc(config.vlcConfig);
+
     this.app.use(bodyparser.json());
 
     const auth = async (req: express.Request, res: express.Response, next: any) => {
@@ -32,6 +36,16 @@ class App {
         this.disablePower(params.device);
       if (intentName == "enable_power")
         this.enablePower(params.device);
+
+      if (intentName == "pause_playback")
+        this.vlc.pause();
+      if (intentName == "resume_playback")
+        this.vlc.resume();
+      if (intentName == "set_volume_level")
+        this.vlc.setSoundLevel(params.level);
+      if (intentName == "set_stream_language")
+        this.vlc.setStreamLanguage(params.vlc_stream, params.language);
+
       res.status(200).send("Ok!");
     });
   }
