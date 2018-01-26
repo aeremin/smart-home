@@ -16,6 +16,10 @@ class App {
 
     this.app.use(bodyparser.json());
 
+    this.app.get("/status/", (_, res) => {
+      res.status(200).send("I am alive!");
+    });
+
     const auth = async (req: express.Request, res: express.Response, next: any) => {
       const credentials = basic_auth(req);
       if (credentials && credentials.name == config.username && credentials.pass == config.password)
