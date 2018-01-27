@@ -2,22 +2,6 @@
   "id": "780ec997-310b-4a6d-837e-07ed241ac34d",
   "name": "device",
   "isOverridable": true,
-  "entries": [
-    {
-      "value": "sound system",
-      "synonyms": [
-        "sound system",
-        "audio system",
-        "logitech"
-      ]
-    },
-    {
-      "value": "projector",
-      "synonyms": [
-        "projector"
-      ]
-    }
-  ],
   "isEnum": false,
   "automatedExpansion": false
 }

@@ -9,6 +9,7 @@
       "affectedContexts": [],
       "parameters": [
         {
+          "id": "cebf8a1e-4896-48c1-b8a5-e9daa9afc881",
           "required": true,
           "dataType": "@device",
           "name": "device",
@@ -19,6 +20,7 @@
       "messages": [
         {
           "type": 0,
+          "lang": "en",
           "speech": [
             "Sure",
             "Done",
@@ -35,81 +37,5 @@
   "webhookForSlotFilling": false,
   "lastUpdate": 1506774761,
   "fallbackIntent": false,
-  "events": [],
-  "userSays": [
-    {
-      "id": "b3ab0558-f2b9-43ce-b6ba-7249a1ee5e57",
-      "data": [
-        {
-          "text": "Shutdown "
-        },
-        {
-          "text": "sound system",
-          "alias": "device",
-          "meta": "@device",
-          "userDefined": false
-        }
-      ],
-      "isTemplate": false,
-      "count": 0,
-      "updated": 1506774761,
-      "isAuto": false
-    },
-    {
-      "id": "1319294b-f114-4521-b243-fcdde96328ac",
-      "data": [
-        {
-          "text": "Turn off "
-        },
-        {
-          "text": "sound system",
-          "alias": "device",
-          "meta": "@device",
-          "userDefined": false
-        }
-      ],
-      "isTemplate": false,
-      "count": 0,
-      "updated": 1506774761,
-      "isAuto": false
-    },
-    {
-      "id": "7e3d7e56-c86a-425e-8790-45d47e795f4e",
-      "data": [
-        {
-          "text": "Turn off "
-        },
-        {
-          "text": "projector",
-          "alias": "device",
-          "meta": "@device",
-          "userDefined": false
-        }
-      ],
-      "isTemplate": false,
-      "count": 0,
-      "updated": 1506468593,
-      "isAuto": false
-    },
-    {
-      "id": "fbaf74c3-1302-4697-b905-6b7f6ccbd593",
-      "data": [
-        {
-          "text": "Disable "
-        },
-        {
-          "text": "projector",
-          "alias": "device",
-          "meta": "@device",
-          "userDefined": false
-        }
-      ],
-      "isTemplate": false,
-      "count": 0,
-      "updated": 1506468593,
-      "isAuto": false
-    }
-  ],
-  "followUpIntents": [],
-  "templates": []
+  "events": []
 }

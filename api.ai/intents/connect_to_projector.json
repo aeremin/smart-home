@@ -10,6 +10,7 @@
       "affectedContexts": [],
       "parameters": [
         {
+          "id": "e191e1ea-4077-4a5b-9816-37787ece7965",
           "required": true,
           "dataType": "@hdmi_source",
           "name": "hdmi_source",
@@ -20,6 +21,7 @@
       "messages": [
         {
           "type": 0,
+          "lang": "en",
           "speech": [
             "Done!",
             "Sure!",
@@ -36,150 +38,5 @@
   "webhookForSlotFilling": false,
   "lastUpdate": 1506375802,
   "fallbackIntent": false,
-  "events": [],
-  "userSays": [
-    {
-      "id": "b2e3af2a-cf20-41bf-979f-478fc4dc5d39",
-      "data": [
-        {
-          "text": "Connect "
-        },
-        {
-          "text": "chromecast",
-          "alias": "hdmi_source",
-          "meta": "@hdmi_source",
-          "userDefined": false
-        },
-        {
-          "text": " to projector"
-        }
-      ],
-      "isTemplate": false,
-      "count": 0,
-      "updated": 1506289662,
-      "isAuto": false
-    },
-    {
-      "id": "a46ca312-fc00-41ce-b594-e3c74e1adb69",
-      "data": [
-        {
-          "text": "Connect "
-        },
-        {
-          "text": "computer",
-          "alias": "hdmi_source",
-          "meta": "@hdmi_source",
-          "userDefined": false
-        },
-        {
-          "text": " to projector"
-        }
-      ],
-      "isTemplate": false,
-      "count": 0,
-      "updated": 0,
-      "isAuto": false
-    },
-    {
-      "id": "610e0ca5-0154-4bae-8b89-27095c907e8b",
-      "data": [
-        {
-          "text": "Connect "
-        },
-        {
-          "text": "playstation",
-          "alias": "hdmi_source",
-          "meta": "@hdmi_source",
-          "userDefined": false
-        },
-        {
-          "text": " to projector"
-        }
-      ],
-      "isTemplate": false,
-      "count": 0,
-      "updated": 0,
-      "isAuto": false
-    },
-    {
-      "id": "2d7f88dc-15f3-4061-a533-aded5ea6a35c",
-      "data": [
-        {
-          "text": "Enable "
-        },
-        {
-          "text": "computer",
-          "alias": "hdmi_source",
-          "meta": "@hdmi_source",
-          "userDefined": false
-        },
-        {
-          "text": " mode"
-        }
-      ],
-      "isTemplate": false,
-      "count": 0,
-      "updated": 0,
-      "isAuto": false
-    },
-    {
-      "id": "09d89bdc-7055-4618-b342-180e24af3d3b",
-      "data": [
-        {
-          "text": "Enable "
-        },
-        {
-          "text": "console",
-          "alias": "hdmi_source",
-          "meta": "@hdmi_source",
-          "userDefined": false
-        },
-        {
-          "text": " mode"
-        }
-      ],
-      "isTemplate": false,
-      "count": 0,
-      "updated": 0,
-      "isAuto": false
-    },
-    {
-      "id": "99c512d5-0b84-4fed-9c2a-5aa5f1b94cc9",
-      "data": [
-        {
-          "text": "Switch to "
-        },
-        {
-          "text": "playstation",
-          "alias": "hdmi_source",
-          "meta": "@hdmi_source",
-          "userDefined": false
-        }
-      ],
-      "isTemplate": false,
-      "count": 0,
-      "updated": 0,
-      "isAuto": false
-    },
-    {
-      "id": "eb3a1557-0b5a-466b-a79d-51ac98fb1d17",
-      "data": [
-        {
-          "text": "Switch to "
-        },
-        {
-          "text": "computer",
-          "alias": "hdmi_source",
-          "meta": "@hdmi_source",
-          "userDefined": false
-        }
-      ],
-      "isTemplate": false,
-      "count": 0,
-      "updated": 0,
-      "isAuto": false
-    }
-  ],
-  "followUpIntents": [],
-  "templates": []
+  "events": []
 }

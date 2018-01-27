@@ -1,0 +1,28 @@
+{
+  "id": "097b1ad1-394b-4bc7-b573-c75eb24f590a",
+  "name": "pause_playback",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Done"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1507586824,
+  "fallbackIntent": false,
+  "events": []
+}

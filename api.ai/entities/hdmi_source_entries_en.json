@@ -1,0 +1,24 @@
+[
+  {
+    "value": "computer",
+    "synonyms": [
+      "computer",
+      "pc",
+      "desktop"
+    ]
+  },
+  {
+    "value": "playstation",
+    "synonyms": [
+      "playstation",
+      "console",
+      "ps4"
+    ]
+  },
+  {
+    "value": "chromecast",
+    "synonyms": [
+      "chromecast"
+    ]
+  }
+]

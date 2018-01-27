@@ -22,7 +22,12 @@
     "systemIntents": [],
     "endIntentIds": [
       "f1bce01d-f5f4-44ed-b20e-b354427d0351",
-      "f6bd9f81-61e2-4989-9ed4-48a525fc834a"
+      "f6bd9f81-61e2-4989-9ed4-48a525fc834a",
+      "21a49f9e-4cdd-48a8-9c44-c632c47d13ef",
+      "097b1ad1-394b-4bc7-b573-c75eb24f590a",
+      "1041290f-9b3a-408c-925e-836de8fa0a11",
+      "b8c5ce62-a2fc-4422-bcfb-b6539a032423",
+      "2dc639f9-74b8-476f-9dd0-798a7dee4a03"
     ],
     "oAuthLinking": {
       "required": false,
@@ -30,11 +35,12 @@
     },
     "voiceType": "MALE_1",
     "capabilities": [],
-    "protocolVersion": "V2"
+    "protocolVersion": "V2",
+    "autoPreviewEnabled": true
   },
   "defaultTimezone": "America/New_York",
   "webhook": {
-    "url": "https://07fbf7d5.ngrok.io",
+    "url": "https://fda91176.ngrok.io",
     "username": "aeremin",
     "headers": {
       "": ""
@@ -46,5 +52,7 @@
   },
   "isPrivate": true,
   "customClassifierMode": "use.after",
-  "mlMinConfidence": 0.3
+  "mlMinConfidence": 0.3,
+  "supportedLanguages": [],
+  "enableOnePlatformApi": false
 }

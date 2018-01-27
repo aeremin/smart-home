@@ -12,6 +12,7 @@
       "messages": [
         {
           "type": 0,
+          "lang": "en",
           "speech": [
             "I didn\u0027t get that. Can you say it again?",
             "I missed what you said. Say it again?",
@@ -37,8 +38,5 @@
   "webhookForSlotFilling": false,
   "lastUpdate": 1506289787,
   "fallbackIntent": true,
-  "events": [],
-  "userSays": [],
-  "followUpIntents": [],
-  "templates": []
+  "events": []
 }

@@ -1,6 +1,6 @@
 {
-  "id": "2dc639f9-74b8-476f-9dd0-798a7dee4a03",
-  "name": "enable_power",
+  "id": "b8c5ce62-a2fc-4422-bcfb-b6539a032423",
+  "name": "set_volume_level",
   "auto": true,
   "contexts": [],
   "responses": [
@@ -9,11 +9,11 @@
       "affectedContexts": [],
       "parameters": [
         {
-          "id": "e7ad1e68-4af4-4298-bdfd-ba194c0c3f40",
+          "id": "f2f58d56-a498-4f78-88fc-e16717c9f6ab",
           "required": true,
-          "dataType": "@device",
-          "name": "device",
-          "value": "$device",
+          "dataType": "@sys.number",
+          "name": "level",
+          "value": "$level",
           "isList": false
         }
       ],
@@ -21,11 +21,7 @@
         {
           "type": 0,
           "lang": "en",
-          "speech": [
-            "Powered!",
-            "Sure!",
-            "Done!"
-          ]
+          "speech": []
         }
       ],
       "defaultResponsePlatforms": {},
@@ -35,7 +31,7 @@
   "priority": 500000,
   "webhookUsed": true,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1506880709014,
+  "lastUpdate": 1507587858,
   "fallbackIntent": false,
   "events": []
 }

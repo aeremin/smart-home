@@ -1,0 +1,74 @@
+[
+  {
+    "id": "11f8413d-9343-4e65-80d8-94b1d6019614",
+    "data": [
+      {
+        "text": "Shutdown ",
+        "userDefined": false
+      },
+      {
+        "text": "sound system",
+        "alias": "device",
+        "meta": "@device",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1506774761
+  },
+  {
+    "id": "2144c5f8-6685-4b2b-ba52-02921de68679",
+    "data": [
+      {
+        "text": "Turn off ",
+        "userDefined": false
+      },
+      {
+        "text": "sound system",
+        "alias": "device",
+        "meta": "@device",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1506774761
+  },
+  {
+    "id": "9ab65a44-886b-4d11-8342-8857f38a12f4",
+    "data": [
+      {
+        "text": "Turn off ",
+        "userDefined": false
+      },
+      {
+        "text": "projector",
+        "alias": "device",
+        "meta": "@device",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1506468593
+  },
+  {
+    "id": "d57f6ae0-a1fd-4b0e-a113-f936260329ac",
+    "data": [
+      {
+        "text": "Disable ",
+        "userDefined": false
+      },
+      {
+        "text": "projector",
+        "alias": "device",
+        "meta": "@device",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1506468593
+  }
+]

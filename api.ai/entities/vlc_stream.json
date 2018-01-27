@@ -1,6 +1,6 @@
 {
-  "id": "700feb02-7ab6-4bb3-876e-6ad5442741cb",
-  "name": "hdmi_source",
+  "id": "a490e7cd-584c-4d06-acf9-7ec5fad3362c",
+  "name": "vlc_stream",
   "isOverridable": true,
   "isEnum": false,
   "automatedExpansion": false

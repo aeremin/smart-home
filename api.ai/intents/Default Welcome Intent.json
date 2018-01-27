@@ -12,6 +12,7 @@
       "messages": [
         {
           "type": 0,
+          "lang": "en",
           "speech": [
             "Hi!",
             "Hello!",
@@ -36,8 +37,5 @@
     {
       "name": "GOOGLE_ASSISTANT_WELCOME"
     }
-  ],
-  "userSays": [],
-  "followUpIntents": [],
-  "templates": []
+  ]
 }

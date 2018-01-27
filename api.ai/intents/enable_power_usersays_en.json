@@ -1,0 +1,38 @@
+[
+  {
+    "id": "f15b0581-23d5-4a20-bb63-72be7f5cbac9",
+    "data": [
+      {
+        "text": "Enable ",
+        "userDefined": false
+      },
+      {
+        "text": "sound system",
+        "alias": "device",
+        "meta": "@device",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2c831301-ebd5-4fa8-8786-a8b9c2c9461e",
+    "data": [
+      {
+        "text": "Turn on ",
+        "userDefined": false
+      },
+      {
+        "text": "projector",
+        "alias": "device",
+        "meta": "@device",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

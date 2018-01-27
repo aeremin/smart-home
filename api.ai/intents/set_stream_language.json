@@ -1,0 +1,46 @@
+{
+  "id": "21a49f9e-4cdd-48a8-9c44-c632c47d13ef",
+  "name": "set_stream_language",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "e91e6d91-61f0-4c45-9c75-2d3ee5e7838b",
+          "required": true,
+          "dataType": "@vlc_stream",
+          "name": "vlc_stream",
+          "value": "$vlc_stream",
+          "isList": false
+        },
+        {
+          "id": "0d2ac2a8-1300-4fc2-b901-26ec76763453",
+          "required": true,
+          "dataType": "@language",
+          "name": "language",
+          "value": "$language",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1507586809919,
+  "fallbackIntent": false,
+  "events": []
+}
