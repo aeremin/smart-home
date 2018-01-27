@@ -52,6 +52,8 @@ class App {
 
       res.status(200).send("Ok!");
     });
+
+    setInterval(() => this.soundSystemKeepAlive(), 5000);
   }
 
   public listen(port: number): void {
@@ -89,6 +91,11 @@ class App {
       disable();
       setTimeout(disable, 1000);
     }
+  }
+
+  private soundSystemKeepAlive() {
+    this.irSend("sound_system", "VOL_PLUS");
+    this.irSend("sound_system", "VOL_MINUS");
   }
 
   private irSend(receiver: string, key: string) {
