@@ -10,7 +10,7 @@
       "affectedContexts": [],
       "parameters": [
         {
-          "id": "e191e1ea-4077-4a5b-9816-37787ece7965",
+          "id": "4ef042d1-7c96-41eb-9b15-12432617e256",
           "required": true,
           "dataType": "@hdmi_source",
           "name": "hdmi_source",

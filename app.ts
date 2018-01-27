@@ -69,6 +69,7 @@ class App {
       computer: "KEY_PROG1",
       playstation: "KEY_PROG2",
       chromecast: "KEY_PROG3",
+      nintendo: "KEY_PROG4",
     };
     this.enablePower("projector");
     return this.irSend("hdmi_switch", hdmiSourceToKey[hdmiSource]);

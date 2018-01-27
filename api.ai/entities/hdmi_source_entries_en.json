@@ -11,7 +11,6 @@
     "value": "playstation",
     "synonyms": [
       "playstation",
-      "console",
       "ps4"
     ]
   },
@@ -19,6 +18,14 @@
     "value": "chromecast",
     "synonyms": [
       "chromecast"
+    ]
+  },
+  {
+    "value": "nintendo",
+    "synonyms": [
+      "nintendo switch",
+      "nintendo",
+      "switch"
     ]
   }
 ]
