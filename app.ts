@@ -53,7 +53,7 @@ class App {
       res.status(200).send("Ok!");
     });
 
-    setInterval(() => this.soundSystemKeepAlive(), 5000);
+    setInterval(() => this.soundSystemKeepAlive(), 60 * 60 * 1000); // 1 hour
   }
 
   public listen(port: number): void {
