@@ -1,7 +1,13 @@
 // Should be named 'config.json'
 {
-  "username": "somebody",
-  "password": "hunter2",
+  "authConfig": {
+    "username": "somebody",
+    "password": "hunter2"
+  },
+  "cloudConfig": {
+    "irUrl": "http://raspberrypi:5001",
+    "vlcUrl": "http://localhost:5002"
+  },
   "vlcConfig": {
     "password": "qwerty",
     "url": "http://localhost:8080"
