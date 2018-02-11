@@ -15,7 +15,7 @@ class App {
     this.app.use(basicAuth(authConfig));
 
     this.app.post("/ir_send/:receiver/:key", async (req: express.Request, res: express.Response) => {
-      await this.irSend(req.params.receiver, req.params.key);
+      this.irSend(req.params.receiver, req.params.key);
       res.status(200).send("Ok!");
     });
 
